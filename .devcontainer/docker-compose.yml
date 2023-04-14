@@ -1,15 +1,15 @@
 version: '3.8'
 
 services: 
-  app:
+#  app:
 #    image: tomrosert/wp-codespace:latest
 #    build:
 #      context: .
 #      dockerfile: Dockerfile
-    restart: unless-stopped
-    volumes:
-      - ../..:/workspaces:cached
-    command: sleep infinity
+#    restart: unless-stopped
+#    volumes:
+#      - ../..:/workspaces:cached
+#    command: sleep infinity
 
   db:
     image: mariadb:10.4
